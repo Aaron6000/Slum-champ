@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OJ Digital Products - Crafting Visuals & Websites</title>
+    <meta name="description" content="OJ Digital Products specializes in stunning poster design and engaging website development.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#hero">OJ Digital Products</a>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav" id="nav">
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get Started</button>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="badge">
+                    <i class="fas fa-sparkles"></i>
+                    <span>Creative Digital Solutions</span>
+                </div>
+                <h1 class="hero-title">
+                    Your Vision, <span class="gradient-text">Digitally Transformed</span>
+                </h1>
+                <p class="hero-description">
+                    We are OJ Digital Products, a passionate team specializing in creating captivating poster designs and dynamic, user-friendly websites.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'})">
+                        View Our Work <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                        Get a Quote
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1532623034127-3d92b01fb3c5?w=1080" alt="Creative workspace">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="gradient-text">Expertise</span></h2>
+                <p>We deliver exceptional digital solutions that drive results</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon gradient-pink">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Poster Design</h3>
+                    <p>From promotional posters for events to artistic prints, we craft visually striking designs that grab attention.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Event Posters</li>
+                        <li><i class="fas fa-check-circle"></i> Promotional Flyers</li>
+                        <li><i class="fas fa-check-circle"></i> Digital Banners</li>
+                        <li><i class="fas fa-check-circle"></i> Infographic Posters</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon gradient-blue">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Website Development</h3>
+                    <p>We build responsive, intuitive, and high-performing websites tailored to your specific needs.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Responsive Web Design</li>
+                        <li><i class="fas fa-check-circle"></i> Custom Development</li>
+                        <li><i class="fas fa-check-circle"></i> CMS Integration</li>
+                        <li><i class="fas fa-check-circle"></i> E-commerce Solutions</li>
+                        <li><i class="fas fa-check-circle"></i> SEO Optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Recent <span class="gradient-text">Work</span></h2>
+                <p>Explore our latest projects and see how we've helped clients</p>
+            </div>
+            <div class="portfolio-item">
+    <img src="Screenshot 2026-08-14 125837.png" alt="Luigi Giussani High School Study Portal">
+    <div class="portfolio-overlay">
+        <span class="portfolio-category">Website Design</span>
+        <h3>Luigi Giussani High School</h3>
+        <p>Vibrant website fit for studying.</p>
+        <a href="https://noteslghs.unaux.com/new" target="_blank" rel="noopener noreferrer" class="portfolio-btn">
+            View Website <i class="fas fa-external-link-alt"></i>
+        </a>
+    </div>
+</div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="" alt="Slumchamp">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Website Development</span>
+                        <h3>SlumChamp</h3>
+                        <p>Get the best from this website</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="" alt="Tech Launch">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Poster Design</span>
+                        <h3>Tech Product Launch</h3>
+                        <p>Sleek modern product poster</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="" alt="Artist Portfolio">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Website Development</span>
+                        <h3>Artist Showcase</h3>
+                        <p>Elegant portfolio website</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About <span class="gradient-text">OJ Digital Products</span></h2>
+                <p>Empowering businesses with exceptional digital solutions</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="" alt="Team">
+                </div>
+                <div class="about-text">
+                    <p>We are a small, dedicated team of creative professionals based in <strong>Kampala, Uganda</strong>, brought together by a shared passion for exceptional digital design.</p>
+                    <p>Founded by <strong>Achon Aaron Jesse</strong> and <strong>Otim Emmanuel Stephen</strong>, OJ Digital Products empowers businesses with visually compelling digital solutions.</p>
+                    <p>Our mission is to translate your ideas into powerful visual communications and seamless online experiences.</p>
+                    <p class="highlight">Let's build something amazing together!</p>
+                </div>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Passion</h3>
+                    <p>We pour our heart into every project</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-bullseye"></i>
+                    <h3>Precision</h3>
+                    <p>Attention to detail in everything we create</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Innovation</h3>
+                    <p>Pushing boundaries with creative solutions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="badge">
+                <i class="fas fa-sparkles"></i>
+                <span>Let's Create Together</span>
+            </div>
+            <h2>Ready to Elevate Your <span class="gradient-text">Digital Presence?</span></h2>
+            <p>Whether you need an eye-catching poster or a professional website, we're here to help.</p>
+            <button class="btn-primary btn-large" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                Let's Talk About Your Project
+            </button>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in <span class="gradient-text">Touch</span></h2>
+                <p>We'd love to hear from you. Send us a message!</p>
+            </div>
+            <div class="contact-grid">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What's this about?">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Tell us about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <div id="formMessage" class="form-message"></div>
+                </form>
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3>Contact Information</h3>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <p class="info-label">Email</p>
+                                <a href="mailto:infoojdigitalpros@prtonmail.com">infoojdigitalpros@prtonmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <p class="info-label">Phone</p>
+                                <a href="tel:+256750373207">+256 750373207</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-card">
+                        <h3>Follow Us</h3>
+                        <p>Stay connected on social media</p>
+                        <div class="social-links">
+                            <a href="https://facebook.com/your-page" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://instagram.com/your-page" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://linkedin.com/company/your-company" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://x.com/your-company" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="location-card">
+                        <h3>Ready to Start?</h3>
+                        <p>We're here to help bring your vision to life.</p>
+                        <p class="made-in"><strong>Made with passion in Kampala, Uganda 🇺🇬</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <h3 class="footer-logo">OJ Digital Products</h3>
+            <p>&copy; <span id="currentYear"></span> OJ Digital Products. All rights reserved.</p>
+            <p class="footer-subtitle">Made with <i class="fas fa-heart"></i> in Kampala, Uganda</p>
+            <p class="footer-founders">Founded by Achon Aaron Jesse & Otim Emmanuel Stephen</p>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
